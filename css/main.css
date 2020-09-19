@@ -1,0 +1,118 @@
+@charset "utf-8";
+
+html, body {
+    height: 100%;
+}
+
+body::-webkit-scrollbar {    display: none !important;}
+
+body {
+    position: relative;
+    width: 1920px;
+}
+
+
+
+
+#gif1 {
+    width: 256px;
+    height: 555px;
+    position: absolute;
+    background: url("../image/intro.gif");
+    margin-top: -750px;
+    margin-left: 535px;
+    background-size: contain;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black ;
+}
+
+#gif2 {
+    width: 264px;
+    height: 573px;
+    position: absolute;
+    background: url("../image/data1.gif") no-repeat;
+    margin-top: -2330px;
+    margin-left: 825px;
+    background-size: contain;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black ;
+}
+
+#gif3 {
+    width: 264px;
+    height: 573px;
+    position: absolute;
+    background: url("../image/data2.gif") no-repeat;
+    margin-top: -970px;
+    margin-left: 840px;
+    background-size: contain;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black ;
+}
+
+#gif4 {
+    width: 297px;
+    height: 641px;
+    position: absolute;
+    background: url("../image/alarm1.gif") no-repeat;
+    margin-top: -2068px;
+    margin-left: 655px;
+    background-size: contain;
+    border-radius: 30px;
+}
+
+#gif5 {
+     width: 190px;
+     height: 237px;
+    position: absolute;
+     background: url("../image/alarm2.gif") no-repeat;
+     margin-top: -1875px;
+     margin-left: 1087px;
+    background-size: contain;
+    border-radius: 40px;
+ }
+
+#gif6 {
+    width: 264px;
+    height: 573px;
+    position: absolute;
+    background: url("../image/alarm-music.gif") no-repeat;
+    margin-top: -830px;
+    margin-left: 764px;
+    background-size: contain;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px black ;
+}
+
+
+#gif7 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background: url("../image/last.gif") no-repeat;
+    margin-top: -752px;
+    margin-left: 863px;
+    background-size: contain;
+}
+
+#circle {
+    width: 215px;
+    height: 404px;
+    position: absolute;
+    background: url("../image/circle.gif") no-repeat;
+    background-size: contain;
+    margin-top: -900px;
+    margin-left: -63px;
+    mix-blend-mode: lighten;
+}
+
+#circle2 {
+    width: 215px;
+    height: 404px;
+    position: absolute;
+    background: url("../image/circle.gif") no-repeat;
+    background-size: contain;
+    margin-top: -472px;
+    margin-left: 1590px;
+    mix-blend-mode: lighten;
+}
